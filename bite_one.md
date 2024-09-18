@@ -20,4 +20,5 @@ If two rules have the same specificity and importance, the one that appears late
 ### Further readings:
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade
+
 https://css-tricks.com/the-c-in-css-the-cascade/
