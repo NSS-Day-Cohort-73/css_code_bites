@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity with Darth Vader</title>
+    <style>
+        /* Default style for all Star Wars characters */
+        .character {
+            color: gray; /* Base color */
+        }
+
+        /* Style for Sith characters */
+        .sith {
+            color: black; /* Sith color */
+        }
+
+        /* More specific style for Darth Vader using an ID */
+        #darth-vader {
+            color: red; /* Darth Vader's unique color */
+        }
+
+        /* Even more specific: a combination of class and ID */
+        .sith#darth-vader {
+            color: purple; /* Overrides previous colors for Darth Vader */
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Specificity with Darth Vader</h1>
+    <p id="darth-vader" class="sith character">Darth Vader’s Outfit</p>
+</body>
+</html>

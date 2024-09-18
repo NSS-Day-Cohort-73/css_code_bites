@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The CSS Cascade at Hogwarts</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Default Hogwarts student robe */
+        p {
+            color: gray; /* Base robe color */
+        }
+
+        /* Gryffindor house styling */
+        .gryffindor {
+            color: red; /* Gryffindor color */
+        }
+
+        /* Hermione adds her own charm later */
+        .gryffindor {
+            color: gold; /* Overrides red */
+        }
+
+        /* Harry uses the Invisibility Cloak charm with !important */
+        #harry {
+            color: transparent !important; 
+        }
+    </style>
+</head>
+<body>
+    <h1>The CSS Cascade in Action</h1>
+    <p id="harry" class="gryffindor" style="color: bisque;">Harry Potter's Robe</p>
+</body>
+</html>
+
