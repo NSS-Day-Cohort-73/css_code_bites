@@ -19,5 +19,7 @@ When there are multiple CSS rules targeting the same element, the cascade first 
 
 Further reading:
 https://specificity.keegan.st/
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
 https://css-tricks.com/specifics-on-css-specificity/
